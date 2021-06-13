@@ -140,7 +140,7 @@ table {
 }
  .three_course{
 	float:left;
-	
+	/* clear: both; */
 }
 .sub_course{
 	margin:20px;
@@ -278,6 +278,7 @@ textarea{
 .personal_info{
 	margin-right: 50px;
 	padding:5px;
+	clear:both;
 }
 .label{
 	text-align:left;
@@ -330,4 +331,5 @@ textarea{
 }
 .contract .pink_font{
 	color:#e12d80;
+	text-decoration: none;
 }
